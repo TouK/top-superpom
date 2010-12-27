@@ -5,26 +5,25 @@
     <artifactId>top</artifactId>
     <packaging>pom</packaging>
     <name>Super POM for TouK open source projects</name>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <url>http://touk.pl</url>
 
-   
     <scm>
-        <connection>scm:svn:https://top.touk.pl/svn/top/</connection>
-        <developerConnection>scm:svn:https://top.touk.pl/svn/top/</developerConnection>
-        <url>https://top.touk.pl/svn/top/</url>
+        <connection>scm:svn:http://top.touk.pl/svn/top/</connection>
+        <developerConnection>scm:svn:http://top.touk.pl/svn/top/</developerConnection>
+        <url>http://top.touk.pl/svn/top/</url>
     </scm>
 
     <distributionManagement>
         <repository>
             <id>top.release</id>
             <name>TouK Open source repository</name>
-            <url>scp://top.touk.pl/var/www/maven2/release</url>
+            <url>sftp://top.touk.pl/release/</url>
         </repository>
         <snapshotRepository>
             <id>top.snapshot</id>
             <name>TouK open source snapshot repository</name>
-            <url>scp://top.touk.pl/var/www/maven2/snapshot</url>
+            <url>sftp://top.touk.pl/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 
