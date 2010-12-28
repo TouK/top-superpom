@@ -4,13 +4,13 @@
     <artifactId>top</artifactId>
     <packaging>pom</packaging>
     <name>Super POM for TouK open source projects</name>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <url>http://touk.pl</url>
 
     <scm>
-        <connection>scm:svn:http://top.touk.pl/svn/top/tags/top-1.0.2</connection>
-        <developerConnection>scm:svn:http://top.touk.pl/svn/top/tags/top-1.0.2</developerConnection>
-        <url>http://top.touk.pl/svn/top/tags/top-1.0.2</url>
+        <connection>scm:svn:http://top.touk.pl/svn/top/</connection>
+        <developerConnection>scm:svn:http://top.touk.pl/svn/top/</developerConnection>
+        <url>http://top.touk.pl/svn/top/</url>
     </scm>
 
     <distributionManagement>
