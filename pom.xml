@@ -1,17 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.touk</groupId>
     <artifactId>top</artifactId>
     <packaging>pom</packaging>
     <name>Super POM for TouK open source projects</name>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <url>http://touk.pl</url>
 
     <scm>
-        <connection>scm:svn:http://top.touk.pl/svn/top/</connection>
-        <developerConnection>scm:svn:http://top.touk.pl/svn/top/</developerConnection>
-        <url>http://top.touk.pl/svn/top/</url>
+        <connection>scm:svn:http://top.touk.pl/svn/top/tags/top-1.0.2</connection>
+        <developerConnection>scm:svn:http://top.touk.pl/svn/top/tags/top-1.0.2</developerConnection>
+        <url>http://top.touk.pl/svn/top/tags/top-1.0.2</url>
     </scm>
 
     <distributionManagement>
