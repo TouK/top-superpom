@@ -22,7 +22,7 @@
     <artifactId>top</artifactId>
     <packaging>pom</packaging>
     <name>Super POM for TouK open source projects</name>
-    <version>1.0.3</version>
+    <version>1.0.4-SNAPSHOT</version>
     <url>http://touk.pl</url>
 
     <scm>
