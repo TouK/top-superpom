@@ -33,14 +33,14 @@
 
     <distributionManagement>
         <repository>
-            <id>top.release</id>
+            <id>maven.touk.pl.releases</id>
             <name>TouK Open source repository</name>
-            <url>sftp://top.touk.pl/release/</url>
+            <url>http://maven.touk.pl/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>top.snapshot</id>
+            <id>maven.touk.pl.snapshots</id>
             <name>TouK open source snapshot repository</name>
-            <url>sftp://top.touk.pl/snapshot</url>
+            <url>http://maven.touk.pl/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
