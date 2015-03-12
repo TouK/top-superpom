@@ -29,7 +29,6 @@
         <connection>scm:git:git@github.com:TouK/top-superpom.git</connection>
         <developerConnection>scm:git:git@github.com:TouK/top-superpom.git</developerConnection>
         <url>scm:git:git@github.com:TouK/top-superpom.git</url>
-      <tag>top-1.0.6</tag>
   </scm>
 
     <distributionManagement>
