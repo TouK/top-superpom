@@ -22,25 +22,26 @@
     <artifactId>top</artifactId>
     <packaging>pom</packaging>
     <name>Super POM for TouK open source projects</name>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
     <url>http://touk.pl</url>
 
     <scm>
         <connection>scm:git:git@github.com:TouK/top-superpom.git</connection>
         <developerConnection>scm:git:git@github.com:TouK/top-superpom.git</developerConnection>
         <url>scm:git:git@github.com:TouK/top-superpom.git</url>
-    </scm>
+      <tag>top-1.0.6</tag>
+  </scm>
 
     <distributionManagement>
         <repository>
             <id>maven.touk.pl.releases</id>
             <name>TouK Open source repository</name>
-            <url>http://maven.touk.pl/nexus/content/repositories/releases/</url>
+            <url>https://philanthropist.touk.pl</url>
         </repository>
         <snapshotRepository>
             <id>maven.touk.pl.snapshots</id>
             <name>TouK open source snapshot repository</name>
-            <url>http://maven.touk.pl/nexus/content/repositories/snapshots/</url>
+            <url>https://philanthropist.touk.pl</url>
         </snapshotRepository>
     </distributionManagement>
 
