@@ -22,14 +22,13 @@
     <artifactId>top</artifactId>
     <packaging>pom</packaging>
     <name>Super POM for TouK open source projects</name>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.7-SNAPSHOT</version>
     <url>http://touk.pl</url>
 
     <scm>
         <connection>scm:git:git@github.com:TouK/top-superpom.git</connection>
         <developerConnection>scm:git:git@github.com:TouK/top-superpom.git</developerConnection>
         <url>scm:git:git@github.com:TouK/top-superpom.git</url>
-    <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>
